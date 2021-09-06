@@ -14,3 +14,7 @@
 This is Gateway project that mainly use Zuul to handle the versioning of our service
 Zuul Router Differntiate between which service swagger will open based on Request Header Param ( Version ) it either take version1 or version2 
 this value represent the service Id of each service based on this value there is a Pre-filter that will intercept the request and add the correct service Id based on value came from header or it will add version2 by default 
+
+# technology Used 
+- Spring cloud zuul for routing 
+- Spring cloud netflix ribbon 
