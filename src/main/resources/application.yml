@@ -1,0 +1,33 @@
+server:
+  port: 8081
+
+zuul:
+  routes:
+    version1:
+      path: /**
+      serviceId: version1
+      stripPrefix: false
+    version2:
+      path: /**
+      serviceId: version2
+      stripPrefix: false
+
+ribbon:
+  eureka:
+    enabled: false
+
+version1:
+  ribbon:
+    ConnectTimeout: 60000
+    ReadTimeout: 60000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
+    listOfServers: localhost:7171
+
+version2:
+  ribbon:
+    ConnectTimeout: 60000
+    ReadTimeout: 60000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
+    listOfServers: localhost:9090
