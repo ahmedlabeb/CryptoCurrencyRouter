@@ -1,4 +1,4 @@
-package com.bitoasis.router.filter;
+package com.bitoasis.cryptocurrencyrouter.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;

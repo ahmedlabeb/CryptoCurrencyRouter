@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.bitoasis</groupId>
-    <artifactId>router</artifactId>
+    <artifactId>crypto-currency-router</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>router</name>
+    <name>crypto-currency-router</name>
     <description>Crypto Currency router service</description>
     <properties>
         <spring-cloud.version>Hoxton.SR11</spring-cloud.version>
@@ -24,12 +24,12 @@
         </developer>
     </developers>
 
-    <!--<scm>
-        <connection></connection>
-        <developerConnection></developerConnection>
-        <tag></tag>
-        <url></url>
-    </scm>-->
+    <scm>
+        <connection>git@github.com:ahmedlabeb/crypto-currency-router.git</connection>
+        <developerConnection>git@github.com:ahmedlabeb/crypto-currency-router.git</developerConnection>
+        <tag>crypto-currency-router-0.0.1-SNAPSHOT</tag>
+        <url>https://github.com/ahmedlabeb/crypto-currency-router.git</url>
+    </scm>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
